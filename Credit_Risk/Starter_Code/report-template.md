@@ -14,7 +14,7 @@ Logistic Regression Model 1
 - Healthy Loans - Precision: 1.00, Recall: 0.99, F1-Score: 1.00
 - High-Risk Loans - Precision: 0.85, Recall: 0.91, F1-Score: 0.88
 
-Logistic Regression Model 2 (With random sampler)
+#### Logistic Regression Model 2 (With random sampler)
 
 - Balanced Accuracy Score: 0.994
 - Healthy Loans - Precision: 1.00, Recall: 0.99, F1-Score: 1.00
@@ -30,9 +30,3 @@ The model has a very good balanced accuracy score of 0.99. The f1-scores suggest
 
 Recommendation
 For this classification problem, the detriment would be to label a high-risk loan as healthy. The performance metric needed here is the recall value for predicting high-risk loans. Since the second model has a recall value of 0.99, that model was able to label 99% of the actual high-risk loans as high-risk. The new model utilizing the random sampler would be recoomended. 
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
